@@ -39,8 +39,7 @@ class NbTokens extends Component {
 	render() {
 		
 		return (
-			<nbtokens>
-
+			<div>
 			<div className="center w50"> Enter the address you want to see the number of tokens owned </div>
 			<br/>
 			<InputGroup className="mb-3 w50">
@@ -52,8 +51,7 @@ class NbTokens extends Component {
 
 			<div className="w50" id="nbtokens-result">
 			</div>
-
-			</nbtokens>
+			</div>
 			)
 		}
 	} 

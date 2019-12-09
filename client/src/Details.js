@@ -12,8 +12,6 @@ class Specifics extends Component {
 	render() {
 		
 		return (
-			<specifics>
-
 			<div className="center w50"> Enter the id of the token whose details you want to see </div>
 			<br/>
 			<InputGroup className="mb-3 w50">
@@ -25,8 +23,6 @@ class Specifics extends Component {
 
 			<div className="w50" id="details-result">
 			</div>
-
-			</specifics>
 			)
 		}
 	} 

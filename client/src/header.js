@@ -17,7 +17,6 @@ class Header extends Component {
 
 	render() {
 		return (
-			<header>
 			<Router>
 			<Navbar bg="primary" variant="dark">
 			<Navbar.Brand href="/home">ERC721 Explorer</Navbar.Brand>
@@ -49,7 +48,6 @@ class Header extends Component {
 			</Switch>
 
 			</Router>
-			</header>
 			)
 	}
 } 

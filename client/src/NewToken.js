@@ -28,12 +28,10 @@ class NewToken extends Component {
 	render() {
 		return (
 			<newtoken>
-
 			<div className='container mt-4'>
 			<div className='w50' id="current-ad"></div><br/>
 			<FileUpload />
 			</div>
-
 			</newtoken>
 			)
 	}

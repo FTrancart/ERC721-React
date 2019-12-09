@@ -39,11 +39,11 @@ class HomePage extends Component {
 	render() {
 
 		return (
-			<homepage>
+			<div>
 			<div className="centerlogo">
 			<img src={logo} alt="description"></img><br/></div><br/><br/>
 			<div id="hometext" className="center">  </div>
-			</homepage>
+			</div>
 			)
 	}
 }

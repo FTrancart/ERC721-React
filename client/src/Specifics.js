@@ -40,8 +40,7 @@ class Specifics extends Component {
 	render() {
 		
 		return (
-			<specifics>
-
+			<div>
 			<div className="center w50"> Enter the id of the token whose details you want to see </div>
 			<br/>
 			<InputGroup className="mb-3 w50">
@@ -54,8 +53,7 @@ class Specifics extends Component {
 			<div className="w50" id="details-result">
 			</div>
 			<img src={this.state.path} id="logo" alt=""></img>
-
-			</specifics>
+			</div>
 			)
 		}
 	} 
